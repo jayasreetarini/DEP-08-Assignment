@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .line-box {
+            line-height: 50px;
+            background-color: lightgray;
+            border:2px solid black;
+            vertical-align: bottom;
+        }
+        .inline {
+            background-color: lightgreen;
+            padding: 5px;
+            
+            margin: 5px;
+        }
+    </style>
+    <title>Line Box Example</title>
+</head>
+<body>
+    <div class="line-box">
+        <span class="inline">Inline element 1</span>
+        <span class="inline">Inline element 2</span>
+        <div style="border:2px solid black">Hello</div>
+        hello jsbfjdgejsabajbxjbajsbjdjnsKNjdhsdnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnndddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        hdjkhkjn
+         <span class="inline">Inline element 4</span>
+
+    </div>
+    <div class="line-box">
+        <span class="inline">Inline element 3</span>
+    </div>
+</body>
+</html>
