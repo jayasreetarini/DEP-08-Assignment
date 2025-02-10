@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        td{
+            border: 1px solid black;
+        }
+        tr{
+            border: 1px solid black;
+            margin-top: 4px;
+            padding-bottom: 4px;
+        }
+        th{
+            border: 1px solid black;
+            text-align: left;
+        }
+    </style>
+</head>
+<body class="bg-[#f2f3f7]">
+    <main>
+        <h3 class="text-[#474a59] font-medium text-2xl">My requests</h3>
+        <section class="mx-4 shadow-md rounded-sm bg-white">
+            <ul class="flex items-center">
+                <li class="text-[14px] font-semibold text-[#303240] flex items-center px-2 py-3 cursor-pointer h-full border-b-2 border-[#0ca3ce]">
+                    <span class="text-[#0ca3ce]">All requests</span>
+                    <span class="flex items-center justify-center ml-2 bg-[#0ca3ce] rounded-full text-[10px] w-[17px] h-[17px] text-white">10</span>
+                </li>
+                <li class="text-[14px] font-semibold text-[#303240] flex items-center px-2 py-3 cursor-pointer h-full">
+                    <span class="hover:text-[#0ca3ce]">Regular vacation</span>
+                    <span class="flex items-center justify-center ml-2 bg-[#e0e3eb] rounded-full text-[10px] w-[17px] h-[17px] hover:text-black">3</span>
+                </li>
+                <li class="text-[14px] font-semibold text-[#303240] flex items-center px-2 py-3 cursor-pointer h-full">
+                    <span class="hover:text-[#0ca3ce]">Sick leave</span>
+                    <span class="flex items-center justify-center ml-2 bg-[#e0e3eb] rounded-full text-[10px] w-[17px] h-[17px] hover:text-black">3</span>
+                </li>
+                <li class="text-[14px] font-semibold text-[#303240] flex items-center px-2 py-3 cursor-pointer h-full">
+                    <span class="hover:text-[#0ca3ce]">Exception leave</span>
+                    <span class="flex items-center justify-center ml-2 bg-[#e0e3eb] rounded-full text-[10px] w-[17px] h-[17px] hover:text-black">4</span>
+                </li>
+            </ul>
+            <table class="w-full border">
+                <thead class="border">
+                    <th class="pl-[21px]">CATEGORY</th>
+                    <th class="flex items-center">REASON <img src="arrow.svg" alt="" class="ml-[4px] h-4 w-3 fill-[#e0e3eb]"></th>
+                    <th>STATUS</th>
+                    <th>PERIOD</th>
+                    <th>APPROVER</th>
+
+                </thead>
+                <tbody class="border">
+                    <tr>
+                        <td class="pl-[21px]"><div class="flex items-center"><img src="plusSymbol.svg" alt="" class="h-5 w-5"><span class="ml-1 font-medium text-[14px] text-[#303240]">Sick leave</span></div></td>
+                        <td class="font-medium text-[14px] text-[#303240]">Regular sick leave</td>
+                        <td><button class="border-1 border-[#8f919e] rounded-full flex items-center py-[3px] px-[8px]">
+                    <span class=" bg-[#e0e3eb] rounded-full w-[11px] h-[11px]"></span>
+                    <span class="ml-2">Closed</span></button></td>
+                        <td class="font-medium text-[14px] text-[#303240]">Dec 30,2024 - Dec 31,2024 (2d)</td>
+                        <td><div class="flex items-center"><img src="profilePhoto.jpg" alt="" class="h-7 w-7 rounded-full"><span class="text-[#0ca3ce] ml-2 font-medium text-[14px]">Shanthikumar Chilumula</span></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
